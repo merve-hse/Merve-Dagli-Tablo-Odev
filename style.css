@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Mukta, sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+}
+
+tr:nth-child(even){
+    background-color:rgb(194, 189, 189); 
+}
+
+th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+td {
+    padding: 1rem 2rem;
+}
+
+ p{
+    border: 2px solid;
+    display: inline;
+}
+
+.progress {
+    border-radius: 5px;
+    background-color:green;
+}
+
+.open {
+    border-radius: 5px;
+    background-color:yellow;
+}
+
+.onhold {
+    border-radius: 5px;
+    background-color:red;
+}
